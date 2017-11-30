@@ -1,0 +1,1 @@
+module.exports = 'hello 10-code-splitting';

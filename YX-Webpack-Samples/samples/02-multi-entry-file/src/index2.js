@@ -1,0 +1,1 @@
+document.write('<h3>Hello world, I am webpack! from index2.js</h3>');

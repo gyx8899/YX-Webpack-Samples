@@ -1,0 +1,1 @@
+document.write('Webpack: other plugins.');

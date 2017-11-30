@@ -1,0 +1,1 @@
+document.write('Hello world! I am webpack demo');
