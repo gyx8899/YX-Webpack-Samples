@@ -1,3 +1,9 @@
+### Commend List
+1. install webpack/webpack-dev-server packages
+```
+npm i -g webpack@1.x webpack-dev-server@1.x
+```
+
 ### Error Tips
 1. Module not found: Error: Can't resolve '[module]' 
 > Module not found: Error: Can't resolve 'react' 
