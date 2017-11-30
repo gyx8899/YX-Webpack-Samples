@@ -1,9 +1,93 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>New html</title>
-  </head>
-  <body>
-  <script type="text/javascript" src=".././dist/bundle.js"></script></body>
-</html>
+Html Webpack Plugin:
+<pre>
+  TypeError: Cannot read property '0' of undefined
+  
+  - ExternalModuleFactoryPlugin.js:19 
+    [YX-Webpack-Samples]/[webpack]/lib/ExternalModuleFactoryPlugin.js:19:40
+  
+  - NormalModuleFactory.js:159 
+    [npm]/[webpack]/lib/NormalModuleFactory.js:159:3
+  
+  - Tapable.js:75 NormalModuleFactory.applyPluginsAsyncWaterfall
+    [npm]/[webpack]/[tapable]/lib/Tapable.js:75:69
+  
+  - NormalModuleFactory.js:144 NormalModuleFactory.create
+    [npm]/[webpack]/lib/NormalModuleFactory.js:144:8
+  
+  - Compilation.js:356 Compilation.process [as _addModuleChain]
+    [npm]/[webpack]/lib/Compilation.js:356:16
+  
+  - Compilation.js:424 Compilation.process [as addEntry]
+    [npm]/[webpack]/lib/Compilation.js:424:7
+  
+  - SingleEntryPlugin.js:24 Compiler.compiler.plugin
+    [YX-Webpack-Samples]/[webpack]/lib/SingleEntryPlugin.js:24:16
+  
+  - Tapable.js:107 Compiler.applyPluginsParallel
+    [npm]/[webpack]/[tapable]/lib/Tapable.js:107:14
+  
+  - Compiler.js:394 Compiler.compile
+    [npm]/[webpack]/lib/Compiler.js:394:7
+  
+  - Compiler.js:203 Compiler.runAsChild
+    [npm]/[webpack]/lib/Compiler.js:203:7
+  
+  - compiler.js:70 
+    [YX-Webpack-Samples]/[html-webpack-plugin]/lib/compiler.js:70:19
+  
+  - debuggability.js:303 Promise._execute
+    [YX-Webpack-Samples]/[bluebird]/js/release/debuggability.js:303:9
+  
+  - promise.js:483 Promise._resolveFromExecutor
+    [YX-Webpack-Samples]/[bluebird]/js/release/promise.js:483:18
+  
+  - promise.js:79 new Promise
+    [YX-Webpack-Samples]/[bluebird]/js/release/promise.js:79:10
+  
+  - compiler.js:69 Object.compileTemplate
+    [YX-Webpack-Samples]/[html-webpack-plugin]/lib/compiler.js:69:10
+  
+  - index.js:47 Compiler.<anonymous>
+    [YX-Webpack-Samples]/[html-webpack-plugin]/index.js:47:40
+  
+  - Tapable.js:107 Compiler.applyPluginsParallel
+    [npm]/[webpack]/[tapable]/lib/Tapable.js:107:14
+  
+  - Compiler.js:394 Compiler.compile
+    [npm]/[webpack]/lib/Compiler.js:394:7
+  
+  - Compiler.js:173 Compiler.<anonymous>
+    [npm]/[webpack]/lib/Compiler.js:173:9
+  
+  - Compiler.js:302 Compiler.readRecords
+    [npm]/[webpack]/lib/Compiler.js:302:10
+  
+  - Compiler.js:170 Compiler.<anonymous>
+    [npm]/[webpack]/lib/Compiler.js:170:8
+  
+  - Tapable.js:67 Compiler.next
+    [npm]/[webpack]/[tapable]/lib/Tapable.js:67:11
+  
+  - NodeEnvironmentPlugin.js:23 Compiler.<anonymous>
+    [npm]/[webpack]/lib/node/NodeEnvironmentPlugin.js:23:3
+  
+  - Tapable.js:69 Compiler.next
+    [npm]/[webpack]/[tapable]/lib/Tapable.js:69:14
+  
+  - CachePlugin.js:22 Compiler.<anonymous>
+    [npm]/[webpack]/lib/CachePlugin.js:22:58
+  
+  - Tapable.js:71 Compiler.applyPluginsAsync
+    [npm]/[webpack]/[tapable]/lib/Tapable.js:71:13
+  
+  - Compiler.js:167 Compiler.run
+    [npm]/[webpack]/lib/Compiler.js:167:7
+  
+  - webpack.js:188 processOptions
+    [npm]/[webpack]/bin/webpack.js:188:12
+  
+  - webpack.js:192 Object.<anonymous>
+    [npm]/[webpack]/bin/webpack.js:192:1
+  
+</pre>
+<script type="text/javascript" src=".././dist/bundle.js"></script>
