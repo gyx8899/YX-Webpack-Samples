@@ -2,6 +2,7 @@
 1. install webpack/webpack-dev-server packages
 ```
 npm i -g webpack@1.x webpack-dev-server@1.x
+
 ```
 
 ### Error Tips
